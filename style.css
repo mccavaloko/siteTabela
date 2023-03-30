@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background: linear-gradient(180deg, #556678 0%, #7A93AC 50%, #556678 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+table{
+    width: 100%;
+}
+
+
+td{text-align: center;}
+
+.esquerda{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#navbar {
+    background: #0D2534;
+    width: 100%;
+    height: 110px;
+}
+
+#logotd{
+    width: 33.3%;
+}
+
+#logo{
+    width: 169px;
+    height: 59px;
+    transform: translateX(-100%);
+    margin-left: 100%;
+}
+
+#botoes{
+    width: 33.3%;
+}
+
+ul{
+    text-align: center;
+    
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#etc{
+    width: 33.3%;
+    vertical-align: top;
+    
+}
+#imgInstalar{
+    transform: translateY(20%);
+    margin-right: 10px;
+}
+#lingua{
+    width: fit-content;
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0D2534;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a{
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {color: #ddd;}
+
+#lingua:hover .dropdown-content {display: grid;}
+
+#Selecionado{
+    color: #ffffff;
+}
+
+.espacodesej{
+    height: 20px;
+}
+
+#listaDesejo{
+    margin-left: 100%;
+    transform: translate(-100%);
+    width: 180px;
+    height: 25px;
+    background-color: #82898f;  
+}
+
+#listaDesejo a{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.espacamento16 td{
+    width: 16.6666666667%;
+}
+
+::placeholder{
+    color: black;
+}
+input:focus {
+    outline: none;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+
+.espacamento25{
+    width: 25%;
+}
+
+.espacamento50{
+    width: 50%;
+}
+
+#barrabusca{
+    background: linear-gradient(270deg, #1D2A37 -3.29%, rgba(66, 90, 115, 0.633802) 48.58%, rgba(29, 42, 55, 0.66) 108.61%, #1D2A37 108.61%);
+    height: 40px;
+    text-align: left;
+}
+
+#barrabusca input[type=text] {
+    margin-left: 25px;
+    background-color: gray;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+}
+
+#barrabusca a{
+    margin-left: 25px;
+}
+
+#lateral{
+    margin-left: 15px;
+}
+
+#selotd{
+    text-align: start;
+}
+
+#selo{
+    width: 17vw;
+    height: 19vh;
+    margin-left: -25px; 
+}
+
+h1, h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
