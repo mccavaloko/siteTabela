@@ -165,7 +165,9 @@ input:focus::placeholder {
 }
 
 #lateral{
+    width: fit-content;
     margin-left: 15px;
+    float:left;
 }
 
 #selotd{
@@ -181,4 +183,11 @@ input:focus::placeholder {
 h1, h2, h3, h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+}
+
+#conteudo{
+    margin-left: 105px;
+    float:left;
+    width: calc(100% - 715px);
+    
 }
