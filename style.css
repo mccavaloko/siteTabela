@@ -18,6 +18,7 @@ body{
 
 table{
     width: 100%;
+    border-spacing: 0px;
 }
 
 
@@ -126,6 +127,7 @@ li{
     width: 16.6666666667%;
 }
 
+
 ::placeholder{
     color: black;
 }
@@ -146,22 +148,28 @@ input:focus::placeholder {
     width: 50%;
 }
 
-#barrabusca{
+
+.barrabusca{
     background: linear-gradient(270deg, #1D2A37 -3.29%, rgba(66, 90, 115, 0.633802) 48.58%, rgba(29, 42, 55, 0.66) 108.61%, #1D2A37 108.61%);
     height: 40px;
-    text-align: left;
+    width: fit-content;
+    text-align: center;
 }
 
-#barrabusca input[type=text] {
-    margin-left: 25px;
+.barrabusca input[type=text] {
     background-color: gray;
     padding: 6px;
     border: none;
     border-radius: 5px;
 }
 
-#barrabusca a{
+.barrabusca a{
     margin-left: 25px;
+}
+
+#inputbusca{
+    text-align: center;
+    background: linear-gradient(270deg, #202b36 -3.29%, rgb(46 61 76) 48.58%, rgb(34 44 53) 108.61%, #1D2A37 108.61%);
 }
 
 #lateral{
@@ -186,9 +194,75 @@ h1, h2, h3, h4 {
 }
 
 #conteudo{
-    margin-left: 105px;
+    margin-left: 107px;
     float:left;
     width: calc(100% - 715px);
-    
 }
-k
+
+
+#voltar{
+    margin-left: 30px;
+    padding-top: 130px;
+    float: left;
+}
+
+#conteudo video{
+    padding-left: 5px;
+}
+
+#prox{
+    margin-bottom: 150px;
+}
+
+#conteudo img:hover{
+    cursor: pointer;
+}
+
+#conteudo h2{
+    margin-left: 70px;
+}
+
+#seletor{
+    margin-left: 167px;
+    float: left;
+    width: 49.1%;
+    border-spacing: 2px;
+}
+
+#seletor tr{
+    height: 20px;
+}
+
+.btnseletor{
+    border-radius: 5px;
+    background-color: #1D2A37;
+}
+
+.btnseletor:hover{
+    transition: 0.1s;
+    background-color: #364D64;
+    cursor: pointer;
+}
+
+#selecionado{
+    background-color: #364D64;
+}
+
+#descobrir{
+    margin-left: 107px;
+    float:left;
+    width: calc(100% - 715px);
+}
+
+#espacodescobrir{
+    height: 120px;
+}
+
+#descobrir td{
+    text-align: start;
+}
+
+#descobrir img{
+    width: 375px;
+    height: 300px;
+}
