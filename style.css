@@ -260,9 +260,20 @@ h1, h2, h3, h4 {
 
 #descobrir td{
     text-align: start;
+    padding: 0 0 100px 0;
 }
 
-#descobrir img{
+#descobrir img {
     width: 375px;
     height: 300px;
-}
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    
+  }
+  
+  #descobrir img:hover {
+    position: relative;
+    transform: scale(1.3);
+    z-index: 1;
+  }
+  
